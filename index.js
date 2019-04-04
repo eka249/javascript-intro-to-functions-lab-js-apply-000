@@ -9,10 +9,6 @@ function whisper(string) {
 whisper('HELLo')
 
 function logShout(string){
-  return console.log(string.touppercase())
+  console.log(string.touppercase())
 }
-//spyOn(console, 'log')
-//function logShout(string) {
-//spyon(string).toUpperCase()
-//}
 logShout('hello')
