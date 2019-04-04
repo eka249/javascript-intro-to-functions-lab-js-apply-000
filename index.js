@@ -8,8 +8,11 @@ function whisper(string) {
 }
 whisper('HELLo')
 
-jest.spyOn(console, 'log')
-function logShout(string) {
-  spyon(string).toUpperCase()
+function logshout(string){
+  return console.log(string.touppercase())
 }
+//spyOn(console, 'log')
+//function logShout(string) {
+//spyon(string).toUpperCase()
+//}
 logShout('hello')
